@@ -77,7 +77,6 @@ pdf2svg <in file.pdf> <out file.svg> [<page no>]
 ```
 office --> pdf --> svg
 ```
-![office文档在线阅读](static/tutorial/preview.png)
 
 > 之前有考虑过office文档不经过转化，然后直接在线浏览的，但是方案比较复杂，部署不容易，至少我没部署成功过...
 
@@ -103,11 +102,3 @@ office --> pdf --> svg
 ### 阅读文档水印功能
 在提供阅读的svg文件上添加水印
 
-<a name="alipay"></a>
-### 支付宝打赏赞助
-![支付宝打赏](static/tutorial/alipay.jpg)
-
-
-<a name="wxpay"></a>
-### 微信打赏赞助
-![微信打赏](static/tutorial/wxpay.jpg)

@@ -1,6 +1,6 @@
 /*
- * Author:	皇虫(TruthHun)
- * Email:	TruthHun@QQ.COM
+ * Author:	伟大的渺小(TruthHun)
+ * Email:	伟大的渺小@QQ.COM
  * Date:	2016-12-28
  * */
 'use strict';

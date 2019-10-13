@@ -5,6 +5,7 @@ import (
 	"time"
 
 	"DocHKJ/helper"
+
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 )
@@ -27,7 +28,7 @@ func installAdmin() {
 		Id:       1,
 		Username: "admin",
 		Password: helper.MD5Crypt("admin"),
-		Email:    "TruthHun@QQ.COM",
+		Email:    "伟大的渺小@QQ.COM",
 		Code:     "芝麻开门",
 	}
 	beego.Info("初始化管理员数据")

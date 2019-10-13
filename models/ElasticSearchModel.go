@@ -13,7 +13,7 @@ import (
 
 	"fmt"
 
-	"github.com/TruthHun/DocHub/helper"
+	"DocHKJ/helper"
 	"github.com/TruthHun/gotil/util"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/httplib"

@@ -10,7 +10,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 
 	CloudStore2 "github.com/TruthHun/CloudStore"
-	"github.com/TruthHun/DocHub/helper"
+	"DocHKJ/helper"
 )
 
 type CloudStore struct {

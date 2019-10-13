@@ -5,9 +5,9 @@ import (
 
 	"time"
 
-	"github.com/TruthHun/DocHub/helper"
-	"github.com/TruthHun/DocHub/helper/conv"
-	"github.com/TruthHun/DocHub/models"
+	"DocHKJ/helper"
+	"DocHKJ/helper/conv"
+	"DocHKJ/models"
 	"github.com/astaxie/beego/orm"
 )
 

@@ -9,8 +9,8 @@ import (
 
 	"strings"
 
-	"github.com/TruthHun/DocHub/helper"
-	"github.com/TruthHun/DocHub/models"
+	"DocHKJ/helper"
+	"DocHKJ/models"
 	"github.com/astaxie/beego/orm"
 )
 

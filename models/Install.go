@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/TruthHun/DocHub/helper"
+	"DocHKJ/helper"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 )
@@ -44,14 +44,14 @@ func installSys() {
 				p{text-indent: 2em;}
 			</style>
 			<div><strong>尊敬的用户</strong></div>
-			<p>您好，非常感谢您对DocHub文库(<a href="https://github.com/TruthHun/DocHub" target="_blank" title="DocHub文库">DocHub</a>)的关注和热爱</p>
+			<p>您好，非常感谢您对DocHub文库(<a href="https://DocHKJ" target="_blank" title="DocHub文库">DocHub</a>)的关注和热爱</p>
 			<p>您本次申请注册成为DocHub文库会员的邮箱验证码是: <strong style="font-size: 30px;color: red;">{code}</strong></p>
 			<p>如果非您本人操作，请忽略该邮件。</p>`,
 		TplEmailFindPwd: `<style type="text/css">
 				p{text-indent: 2em;}
 			</style>
 			<div><strong>尊敬的用户</strong></div>
-			<p>您好，非常感谢您对DocHub文库(<a href="https://github.com/TruthHun/DocHub" target="_blank" title="DocHub文库">DocHub</a>)的关注和热爱</p>
+			<p>您好，非常感谢您对DocHub文库(<a href="https://DocHKJ" target="_blank" title="DocHub文库">DocHub</a>)的关注和热爱</p>
 			<p>您本次申请找回密码的邮箱验证码是: <strong style="font-size: 30px;color: red;">{code}</strong></p>
 			<p>如果非您本人操作，请忽略该邮件。</p>`,
 		Trends:            "1,2,3,4,5",

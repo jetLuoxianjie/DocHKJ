@@ -37,7 +37,7 @@ import (
 	"path/filepath"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/TruthHun/DocHub/helper/crawl"
+	"DocHKJ/helper/crawl"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/cache"
 	"github.com/disintegration/imaging"

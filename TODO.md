@@ -77,7 +77,7 @@ CREATE DATABASE dochub CHARACTER SET utf8 COLLATE utf8_general_ci;
     - [ ] UCloud
     - [ ] 青云
 - [x] SEO优化，参考新浪爱问文库，从文档中提取文本，放到HTML页面隐藏显示的div中
-- [x] 积分问题[#40](https://github.com/TruthHun/DocHub/issues/40)
+- [x] 积分问题[#40](https://DocHKJ/issues/40)
 - [x] 封面、横幅裁剪，不再依赖云存储做图片处理
 - [x] `sudo`支持
 - [x] 下载文档出错，下载id为100的文档，可能下载到id位80的文档（MySQL查询语句错误造成的）

@@ -3,9 +3,9 @@ package AdminControllers
 import (
 	"time"
 
-	"github.com/TruthHun/DocHub/helper"
+	"DocHKJ/helper"
 
-	"github.com/TruthHun/DocHub/models"
+	"DocHKJ/models"
 	"github.com/astaxie/beego/orm"
 )
 

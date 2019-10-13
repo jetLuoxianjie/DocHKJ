@@ -1,6 +1,6 @@
 package AdminControllers
 
-import "github.com/TruthHun/DocHub/models"
+import "DocHKJ/models"
 
 type ReportController struct {
 	BaseController

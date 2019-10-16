@@ -62,7 +62,7 @@ func GetConfigFloat64(cate ConfigCate, key string) (val float64) {
 func setDefaultConfig() {
 	//在程序未安装之前才能设置
 	if !IsInstalled {
-		beego.BConfig.AppName = "DocHub"     //默认程序名称
+		beego.BConfig.AppName = "DocHkj"     //默认程序名称
 		beego.BConfig.Listen.HTTPPort = 8090 //默认监听端口
 
 		//程序安装的时候为开发模式，安装完成之后变为产品模式
@@ -76,7 +76,7 @@ func setDefaultConfig() {
 
 		//SESSION基本配置
 		beego.BConfig.WebConfig.Session.SessionOn = true
-		beego.BConfig.WebConfig.Session.SessionName = "DocHub"
+		beego.BConfig.WebConfig.Session.SessionName = "DocHkj"
 		beego.BConfig.WebConfig.Session.SessionProvider = "file"
 		beego.BConfig.WebConfig.Session.SessionProviderConfig = "cache/session"
 
@@ -92,7 +92,7 @@ func GenerateAppConf(host string, port int, username, password, database, prefix
 		os.Mkdir("conf", os.ModePerm)
 		fileContent := `
 # 项目名称
-appname = DocHub
+appname = DocHkj
 
 # 运行端口
 httpport = 8090

@@ -29,7 +29,7 @@ func installAdmin() {
 		Username: "admin",
 		Password: helper.MD5Crypt("admin"),
 		Email:    "伟大的渺小@QQ.COM",
-		Code:     "芝麻开门",
+		Code:     "黑龙江科技大学",
 	}
 	beego.Info("初始化管理员数据")
 	if _, _, err := orm.NewOrm().ReadOrCreate(&admin, "Id"); err != nil {
@@ -45,22 +45,22 @@ func installSys() {
 				p{text-indent: 2em;}
 			</style>
 			<div><strong>尊敬的用户</strong></div>
-			<p>您好，非常感谢您对DocHub文库(<a href="https://DocHKJ" target="_blank" title="DocHub文库">DocHub</a>)的关注和热爱</p>
-			<p>您本次申请注册成为DocHub文库会员的邮箱验证码是: <strong style="font-size: 30px;color: red;">{code}</strong></p>
+			<p>您好，非常感谢您对HKJ文库(<a href="https://DocHKJ" target="_blank" title="DocHKJ文库">DocHKJ</a>)的关注和热爱</p>
+			<p>您本次申请注册成为DocHKJ文库会员的邮箱验证码是: <strong style="font-size: 30px;color: red;">{code}</strong></p>
 			<p>如果非您本人操作，请忽略该邮件。</p>`,
 		TplEmailFindPwd: `<style type="text/css">
 				p{text-indent: 2em;}
 			</style>
 			<div><strong>尊敬的用户</strong></div>
-			<p>您好，非常感谢您对DocHub文库(<a href="https://DocHKJ" target="_blank" title="DocHub文库">DocHub</a>)的关注和热爱</p>
+			<p>您好，非常感谢您对DocHKJ文库(<a href="https://DocHKJ" target="_blank" title="DocHKJ文库">DocHKJ</a>)的关注和热爱</p>
 			<p>您本次申请找回密码的邮箱验证码是: <strong style="font-size: 30px;color: red;">{code}</strong></p>
 			<p>如果非您本人操作，请忽略该邮件。</p>`,
 		Trends:            "1,2,3,4,5",
-		Site:              "DocHub(多哈)文库",
+		Site:              "DocHKJ(黑科技)文库",
 		Reward:            5,
 		Sign:              5,
-		Question:          "DocHub文库的中文名是什么？",
-		Answer:            "多哈",
+		Question:          "DocHKJ文库的中文名是什么？",
+		Answer:            "黑科技",
 		ListRows:          10,
 		TimeExpireHotspot: 604800,
 		TimeExpireRelate:  604800,
@@ -73,7 +73,7 @@ func installSys() {
 4:敏感信息
 5:人身攻击
 6:骚扰他人`, //举报原因
-		Watermark:        "DocHub", //文档水印
+		Watermark:        "DocHKJ", //文档水印
 		StoreType:        string(StoreOss),
 		CheckRegEmail:    true,
 		AllowRepeatedDoc: false,
@@ -92,34 +92,10 @@ func installFriendlinks() {
 	var friends = []Friend{
 		Friend{
 			Id:         1,
-			Title:      "书栈网",
-			Link:       "https://www.bookstack.cn",
+			Title:      "59盾高防服务器",
+			Link:       "https://www.59dun.com",
 			Status:     true,
 			Sort:       1,
-			TimeCreate: now,
-		},
-		Friend{
-			Id:         2,
-			Title:      "掘金量化",
-			Link:       "https://www.myquant.cn",
-			Status:     true,
-			Sort:       2,
-			TimeCreate: now,
-		},
-		Friend{
-			Id:         4,
-			Title:      "南宁引力互动科技",
-			Link:       "http://www.gxyinli.com",
-			Status:     true,
-			Sort:       3,
-			TimeCreate: now,
-		},
-		Friend{
-			Id:         3,
-			Title:      "HC-CMS",
-			Link:       "http://www.hc-cms.com",
-			Status:     true,
-			Sort:       4,
 			TimeCreate: now,
 		},
 	}

@@ -64,7 +64,7 @@ pdf2svg <in file.pdf> <out file.svg> [<page no>]
 
 <a name="read-svg"></a>
 ### 文档在线阅读
-`DocHub`文库通过`svg`矢量图来实现文档阅读体验的，我知道的文库站点中，[新浪爱问](http://ishare.iask.sina.com.cn/)是通过`png`等图片提供文档阅读体验的。
+`DocHkj`文库通过`svg`矢量图来实现文档阅读体验的，我知道的文库站点中，[新浪爱问](http://ishare.iask.sina.com.cn/)是通过`png`等图片提供文档阅读体验的。
 
 `SVG`相比`png`、`jpeg`等图片格式有很大的优势，至少放大不会失真，而且与JPEG 和 GIF 图像比起来，svg尺寸更小，可压缩性更强，`DocHub`通过gzip，将svg文件压缩，一般情况下，能减少70%的文件大小，比如200kb的svg，gzip压缩后，只有60kb左右的大小。
 

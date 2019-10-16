@@ -16,7 +16,8 @@ const (
 	CACHE_CONF = `{"CachePath":"./cache/runtime","FileSuffix":".cache","DirectoryLevel":2,"EmbedExpiry":120}`
 
 	DEFAULT_STATIC_EXT    = ".txt,.html,.ico,.jpeg,.png,.gif,.xml"
-	DEFAULT_COOKIE_SECRET = "dochub"
+	DEFAULT_COOKIE_SECRET = "dochkj"
+	//dochub
 
 	//	扩展名
 	EXT_CATE_WORD       = "word"

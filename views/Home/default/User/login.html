@@ -1,5 +1,3 @@
-
-
 <div class="container">
     <div class="row">
         <div class="login">
@@ -19,12 +17,14 @@
                         </div>
                         <div class="form-box">
                             <div class="form-group form-group-lg">
-                                <input type="email" autocomplete="no" name="Email" class="form-control login-field" required="required" value="" placeholder="请输入登录邮箱" id="login-name">
+                                <input type="email" autocomplete="no" name="Email" class="form-control login-field"
+                                    required="required" value="" placeholder="请输入登录邮箱" id="login-name">
                                 <label class="login-field-icon fui-user" for="login-name"></label>
                             </div>
 
                             <div class="form-group form-group-lg">
-                                <input type="password" autocomplete="no" class="form-control login-field" name="Password" required="required"  value="" placeholder="请输入登录密码" id="login-pass">
+                                <input type="password" autocomplete="no" class="form-control login-field"
+                                    name="Password" required="required" value="" placeholder="请输入登录密码" id="login-pass">
                                 <label class="login-field-icon fui-lock" for="login-pass"></label>
                             </div>
                             {{.xsrfdata}}
@@ -32,7 +32,7 @@
                         </div>
                         <div class="form-footer">
                             <div class="help-block">
-                                <a href="/user/findpwd">找回密码</a>
+                                <!-- <a href="/user/findpwd">找回密码</a> -->
                                 <a class="pull-right" href="/user/reg">立即注册</a>
                             </div>
 
